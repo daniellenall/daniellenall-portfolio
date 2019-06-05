@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.navbar {
+	background-color: #1A1A1A;
+	color: #FFFFFF;
+}
+
+.navbar li {
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+	padding: 10px 20px;
+}
+.navbar li a{
+	color: #FFFFFF;
+	display: block;
+	padding: 10px 20px;
+	margin: -10px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.navbar li a:hover {
+	background-color: #3E3E3E;
+}
+
+section {
+	padding: 20px;
+}
+
+section:nth-child(odd) {
+	background-color: #D8D8D8;
+}
+
+.btn {
+	border: 3px solid #9013FE;
+	padding: 7px;
+	color: #9013FE;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.subsection h3 {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+.hero {
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	min-height: 60vh;
+	color: #FFFFFF;
+}
+
+.hero-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('https://images.unsplash.com/photo-1513870953496-5ad8a6f993a2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=180b5d0bd3078322ea1ca8aad533359a&auto=format&fit=crop&w=800&q=60') no-repeat center center fixed;
+	background-size: cover;
+	z-index: -1;
+}
+
+.hero h1 {
+	font-weight: 500;
+	font-size: 3em;
+	margin-bottom: 5px;
+}
+
+.hero h2 {
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-weight: 300;
+	margin-bottom: 5px;
+}
+
+.portfolio-item {
+	display: inline-block;
+	width: 31%;
+	margin: 0% 1%;
+	margin-bottom: 20px;
+}
+
+.portfolio-item img {
+	width: 100%;
+}
+
+.portfolio-item .technologies li:first-child {
+	margin-left: 0px;
+}
+
+.portfolio-item .technologies li {
+	display: inline-block;
+	background-color: #D8D8D8;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 2.5px;
+	font-weight: 500;
+}
