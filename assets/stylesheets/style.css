@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500');
 
 * {
 	margin: 0;
@@ -24,6 +24,7 @@ h1 {
 p {
 	margin-bottom: 15px;
     font-size: 1.25em;
+    font-weight: 200;
 }
 
 .navbar li a:hover {
@@ -35,29 +36,8 @@ section {
 	flex-direction: column;
 	padding: 20px 100px;
 }
-
-
-.portfolio-grid {
-	display: flex;
-	flex-wrap: wrap;
-	margin: -1em 0 1em -0.5em;
-	justify-content: space-around;
-}
-
-.portfolio-item {
-	padding: 1em 0 0 0.5em;
-  flex: 1 0 20em;
-  max-width: 20em;
-  width: auto;
-  margin: initial;
-}
-
-.portfolio-item img {
-	width: 100%;
-}
-
-.portfolio-item .technologies li:first-child {
-	margin-left: 0px;
+.project {
+    padding-top: 5px;
 }
 
 #footer {
