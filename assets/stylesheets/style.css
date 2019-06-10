@@ -8,52 +8,19 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	color: #FFFFFF;
     background-color: #1E1E1E;
+    color: #FFFFFF;
 }
 
 a {
-	color: inherit;
-	font-weight: 500;
-	text-decoration: none;
-}
-h1 {
-    font-size: 2em;
+    color: #CC66FF;
 }
 
-p {
-	margin-bottom: 15px;
-    font-size: 1.25em;
-    font-weight: 200;
+a:hover {
+    color: #CC33FF;
+    text-decoration: overline underline;
 }
 
-.navbar li a:hover {
-	background-color: #1A1A1A;
-}
-
-section {
-	display: flex;
-	flex-direction: column;
-	padding: 20px 100px;
-}
-.project {
-    padding-top: 5px;
-}
-
-#footer {
-	color: #FFF;
-	background-color: #1C1C1C;
-	text-align: center;
-}
-
-#footer a {
-	color: #fff;
-	text-decoration: none;
-}
-
-#footer .fa {
-	font-size: 2em;
-}
 
 /*--Media Queries--*/
 @media only screen and (max-width: 1000px) {
