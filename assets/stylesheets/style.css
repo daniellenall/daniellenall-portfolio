@@ -79,6 +79,7 @@ section > #landing {
     padding: 20px;
     margin-bottom: 0px;
 }
+
 /*--Media Queries--*/
 @media only screen and (max-width: 1000px) {
 	.container {
