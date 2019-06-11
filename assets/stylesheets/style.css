@@ -60,6 +60,19 @@ section > #landing {
     border-radius: 2px;
 }
 
+.card-links {
+    text-align: center;
+}
+
+.card-links a{
+    color: #1E1E1E;
+    text-decoration: none;
+}
+
+.card-links a:hover{
+    text-decoration: none;
+}
+
 .card-thumbnail {
 
 }
