@@ -60,6 +60,10 @@ section > #landing {
     border-radius: 2px;
 }
 
+.card-desc {
+    font-size: 18px;
+}
+
 .card-links {
     text-align: center;
 }
