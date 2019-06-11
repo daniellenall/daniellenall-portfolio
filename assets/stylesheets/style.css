@@ -14,12 +14,12 @@ body {
 }
 
 a {
-    color: #CC66FF;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
 a:hover {
-    color: #CC33FF;
+    color: #FFFFFF;
     text-decoration: overline underline;
 }
 
@@ -43,8 +43,9 @@ section > #landing {
 
 .landing {
     width: 100%;
-    color: #1E1E1E;
+    color: #FFFFFF;
     background-color: #E1E1E1;
+    background-image: linear-gradient(to top left, #00BFFF, #9400D3);
     padding-bottom: 20px;
     /*height: 100vh;*/
 }
@@ -67,9 +68,9 @@ section > #landing {
 .technologies li {
     list-style-type: none;
     display: inline-block;
-    background-color: #CC66FF;
+    border: 2px solid #00BFFF;
     padding: 5px;
-    border-radius: 2px;
+    border-radius: 5px;
     margin-bottom: 5px;
 
 }
@@ -97,6 +98,15 @@ section > #landing {
 		width: 100% !important;
 		margin: 0 auto;
 	}
+
+    .card {
+        color: #1E1E1E;
+        background-color: #E1E1E1;
+        width: 90%;
+        padding: 2% 5%;
+        margin: 20px 1% 20px 5%;
+        border-radius: 2px;
+    }
 
 	section {
 		padding: 10px;
