@@ -1,9 +1,15 @@
 .heading-secondary {
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 1.3rem;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .heading-tertiary {
     text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.paragraph {
+    font-weight: 200;
 }
