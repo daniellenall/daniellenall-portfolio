@@ -39,7 +39,7 @@
         .hero-desc {
             font-weight: 200;
             width: 80%;
-            min-width: 500;
+            min-width: 450px;
             color: $text-color-light;
             padding: 1rem;
             margin: auto;
@@ -50,9 +50,10 @@
             
             a {
                 color: inherit;
+                font-size: 1.5rem;
                 
                 &:hover {
-                    transform: skew(5px);
+                    color: $color-secondary;
                 }
             }
         }

@@ -63,7 +63,7 @@ body {
     .header .header-content .hero-desc {
       font-weight: 200;
       width: 80%;
-      min-width: 500;
+      min-width: 450px;
       color: #ffffff;
       padding: 1rem;
       margin: auto; }
@@ -71,9 +71,10 @@ body {
       color: #ffffff;
       font-weight: 500; }
       .header .header-content .hero-links a {
-        color: inherit; }
+        color: inherit;
+        font-size: 1.5rem; }
         .header .header-content .hero-links a:hover {
-          transform: skew(5px); }
+          color: #00BFFF; }
 
 .row {
   max-width: 114rem;
