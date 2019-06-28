@@ -9,6 +9,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+        text-shadow: 0px 0px 15px darken($color-primary, 15%);
 
         p {
             margin-bottom: 10px;
