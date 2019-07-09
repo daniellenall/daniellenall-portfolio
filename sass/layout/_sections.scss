@@ -1,8 +1,13 @@
 section {
-    padding: 2rem 4rem;
-}
+    padding: 2rem 6rem;
 
-.about {
-    background-color: $color-grey-light;
-    color: $text-color-dark;
+    &:nth-child(even) {
+        background-color: $text-color-dark;
+        color: $text-color-light;
+    }
+
+    &:nth-child(odd) {
+        background-color: $color-grey-light;
+        color: $text-color-dark;
+    }
 }
