@@ -1,11 +1,11 @@
 .header {
+    position: absolute;
     color: $text-color-light;
-    background: linear-gradient(rgba($color-primary, 0.5), rgba($color-secondary, 0.75)), url('../assets/img/header.jpg');
     background-size: cover;
-    min-height: 50vh;
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 50px 100px 0;
     z-index: 1;
+    
 }

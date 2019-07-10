@@ -1,13 +1,39 @@
 section {
     padding: 2rem 6rem;
+    color: $text-color-light;
 
-    &:nth-child(even) {
-        background-color: $text-color-dark;
-        color: $text-color-light;
+    &:nth-child(3){
+        margin-top: -10%;
+        padding-top: 10%;
+    }
+    &:nth-child(odd) {
+        background-color: $background-color-dark;
+        
     }
 
-    &:nth-child(odd) {
-        background-color: $color-grey-light;
-        color: $text-color-dark;
+    &:nth-child(even) {
+        background-color: $background-color-med;
+        
+    }   
+}
+
+.hero {
+    background: linear-gradient(rgba($background-color-dark, 0.7), rgba($background-color-med, 0.7)), url('../assets/img/header.jpg');
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    height: 75vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
+    box-shadow: 105px 105px 15px $text-color-dark;
+    
+
+    .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
     }
 }
