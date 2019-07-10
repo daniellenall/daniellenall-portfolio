@@ -1,3 +1,18 @@
 .card {
     box-shadow: 1px 1px 5px $text-color-dark;
+    padding: 15px 25px;
+    background-color: darken($background-color-med, 5%);
+
+    .card-img {
+        width: 100%;
+    }
+    .tag {
+        background-color: $color-secondary;
+        color: $text-color-light;
+        padding: 2px 15px;
+        font-size: 0.9rem;
+        font-weight: 400;
+        border-radius: 25px;
+        margin-bottom: 15px;
+    }
 }

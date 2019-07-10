@@ -1,12 +1,16 @@
-$color-primary: #9400D3;
-$color-secondary: #00BFFF;
-$color-tertiary: #cfc0be;
+$color-primary: #59DAA4;
+$color-secondary: #8478F4;
+$color-tertiary: #FC8799;
 
 $color-grey-light: #EEEEEE;
 
 $text-color-light: #ffffff;
-$text-color-dark: #444444;
+$text-color-dark: darken(#2D353F, 10%);
 
+
+$background-color-dark: #2D353F;
+$background-color-med: #333B47;
+$background-color-light: #39414D;
 //GRID
 $grid-width: 114rem;
 $gutter-vertical: 2rem;

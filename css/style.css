@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500");
+@import url("https://fonts.googleapis.com/css?family=Martel+Sans&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +8,7 @@ html {
   font-size: 1em; }
 
 body {
-  font-family: Roboto;
+  font-family: 'Martel Sans', sans-serif;
   width: 100%; }
 
 .paragraph {
@@ -23,13 +23,12 @@ a {
     opacity: 1; }
 
 .highlight {
-  color: #9400D3; }
+  color: #59DAA4; }
 
 .header {
+  position: absolute;
   color: #ffffff;
-  background: linear-gradient(rgba(148, 0, 211, 0.5), rgba(0, 191, 255, 0.75)), url("../assets/img/header.jpg");
   background-size: cover;
-  min-height: 50vh;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -71,18 +70,48 @@ nav ul {
     width: calc(3 * ((100% - 3 * 1rem) / 4) + 2 * 1rem); }
 
 section {
-  padding: 2rem 6rem; }
-  section:nth-child(even) {
-    background-color: #444444;
-    color: #ffffff; }
+  padding: 2rem 6rem;
+  color: #ffffff; }
+  section:nth-child(3) {
+    margin-top: -10%;
+    padding-top: 10%; }
   section:nth-child(odd) {
-    background-color: #EEEEEE;
-    color: #444444; }
+    background-color: #2D353F; }
+  section:nth-child(even) {
+    background-color: #333B47; }
+
+.hero {
+  background: linear-gradient(rgba(45, 53, 63, 0.7), rgba(51, 59, 71, 0.7)), url("../assets/img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  height: 75vh;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
+  box-shadow: 105px 105px 15px #181c21; }
+  .hero .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 .footer {
-  background-color: #444444;
+  background-color: #222830;
   color: #ffffff;
-  padding: 10px; }
+  padding: 2rem 6rem; }
 
 .card {
-  box-shadow: 1px 1px 5px #444444; }
+  box-shadow: 1px 1px 5px #181c21;
+  padding: 15px 25px;
+  background-color: #282f38; }
+  .card .card-img {
+    width: 100%; }
+  .card .tag {
+    background-color: #8478F4;
+    color: #ffffff;
+    padding: 2px 15px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border-radius: 25px;
+    margin-bottom: 15px; }
