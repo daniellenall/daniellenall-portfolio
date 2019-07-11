@@ -1,6 +1,11 @@
 
 .paragraph {
     font-weight: 200;
+    text-align: justify;
+    
+    &:not(:last-child){
+        margin-bottom: 15px;
+    }
 }
 
 a {

@@ -15,6 +15,10 @@ section {
         background-color: $background-color-med;
         
     }   
+
+    h2, h3 {
+        text-align: center;
+    }
 }
 
 .hero {
@@ -23,10 +27,9 @@ section {
     background-position: center;
     position: relative;
     width: 100%;
-    z-index: 0;
     height: 75vh;
     clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
-    box-shadow: 105px 105px 15px $text-color-dark;
+    
     
 
     .hero-content {
