@@ -39,7 +39,10 @@ section {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        
+        h1 {
+            font-weight: 500;
+            text-align: center;
+        }
     }
 }
 
