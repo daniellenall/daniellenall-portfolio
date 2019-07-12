@@ -49,5 +49,14 @@ section {
 @media (min-width: 320px) and (max-width: 768px) {
     section {
         padding: 1rem;
+
+        &:nth-child(3){
+            margin-top: -15%;
+            padding-top: 15%;
+        }
+        
+        .hero {
+            height: 45vh;
+        }
     }
 }
