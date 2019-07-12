@@ -19,6 +19,7 @@ section {
     h2, h3 {
         text-align: center;
     }
+    
 }
 
 .hero {
@@ -38,5 +39,11 @@ section {
         left: 50%;
         transform: translate(-50%, -50%);
         
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    section {
+        padding: 1rem;
     }
 }
