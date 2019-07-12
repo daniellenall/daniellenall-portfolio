@@ -11,4 +11,18 @@ nav {
             }
         }
     }
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    nav {
+        ul {
+            display:block;
+            li {
+                width: 100%;
+            }
+        }
+    }
 }
