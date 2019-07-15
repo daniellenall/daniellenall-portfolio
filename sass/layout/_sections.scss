@@ -46,6 +46,16 @@ section {
     }
 }
 
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    h2 {
+        flex: 0 100%;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
     section {
         padding: 1rem;

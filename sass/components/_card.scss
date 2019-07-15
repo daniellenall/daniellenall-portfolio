@@ -2,9 +2,16 @@
     box-shadow: 1px 1px 5px $text-color-dark;
     padding: 15px 25px;
     background-color: darken($background-color-med, 5%);
+    transition: transform 0.5s;
+    flex: 0 32%;
+    
 
+    &:hover {
+        transform: scale(1.1);
+    }
     .card-img {
         width: 100%;
+        border-radius: 2px;
     }
     .tag {
         background-color: $color-secondary;
