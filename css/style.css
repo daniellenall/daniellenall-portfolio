@@ -139,7 +139,8 @@ section {
   padding: 15px 25px;
   background-color: #282f38;
   transition: transform 0.5s;
-  flex: 0 32%; }
+  flex: 0 32%;
+  margin-bottom: 1rem; }
   .card:hover {
     transform: scale(1.1); }
   .card .card-img {
@@ -153,3 +154,7 @@ section {
     font-weight: 400;
     border-radius: 25px;
     margin-bottom: 15px; }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .card {
+    flex: 100%; } }

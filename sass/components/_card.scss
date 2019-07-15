@@ -4,6 +4,7 @@
     background-color: darken($background-color-med, 5%);
     transition: transform 0.5s;
     flex: 0 32%;
+    margin-bottom: 1rem;
     
 
     &:hover {
@@ -21,5 +22,11 @@
         font-weight: 400;
         border-radius: 25px;
         margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .card {
+        flex: 100%;
     }
 }
