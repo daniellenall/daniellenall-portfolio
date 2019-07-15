@@ -147,7 +147,7 @@ section {
     width: 100%;
     border-radius: 2px; }
   .card .tag {
-    background-color: #8478F4;
+    background: linear-gradient(#8478F4, #4431ee);
     color: #ffffff;
     padding: 2px 15px;
     font-size: 0.9rem;

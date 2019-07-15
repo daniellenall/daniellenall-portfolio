@@ -15,7 +15,7 @@
         border-radius: 2px;
     }
     .tag {
-        background-color: $color-secondary;
+        background: linear-gradient($color-secondary, darken($color-secondary, 15%));
         color: $text-color-light;
         padding: 2px 15px;
         font-size: 0.9rem;
