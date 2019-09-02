@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom right, rgb(207, 62, 87), rgb(255, 131, 15));
+  height: 100vh;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.nav {
+  background: rgb(20, 51, 87);
+  overflow: scroll;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  min-width: 200px;
+  max-width: 20%;
+  text-align: center;
+
+ 
 }
