@@ -1,0 +1,10 @@
+.nav {
+    background: #151515;
+    overflow: scroll;
+    height: 100vh;
+    min-width: 200px;
+    max-width: 20%;
+    text-align: center;
+    padding: 15px 25px;
+  
+  }

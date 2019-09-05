@@ -21,21 +21,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+p {
+  margin-bottom: 15px;
+}
 .wrapper {
   display: flex;
+  color: white;
 }
 
 .main {
   flex: 1;
-  background: #eee;
+  background: #242424;
+  height:100vh;
+  overflow: scroll;
 }
 
-.nav {
-  background: rgb(20, 51, 87);
-  overflow: scroll;
-  height: 100vh;
-  min-width: 200px;
-  max-width: 20%;
-  text-align: center;
+.section {
+  padding: 15px 25px;
 
 }
