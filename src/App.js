@@ -32,22 +32,22 @@ function App() {
 
         <section id="projects" className="section">
           <h2>Projects</h2>
-          <div class="project grid">
-            <div class="project">
+          <div className="project grid">
+            <div className="project">
               <h3>100 Days of UI</h3>
               <p>Currently following </p>
             </div>
-            <div class="project">
-              <h3>100 Days of UI</h3>
-              <p>Currently following </p>
+            <div className="project">
+              <h3>Digital Clock</h3>
+              <p>Simple digital clock dashboard written with vanilla JavaScript</p>
             </div>
-            <div class="project">
-              <h3>100 Days of UI</h3>
-              <p>Currently following </p>
+            <div className="project">
+              <h3>Why The Wirral?</h3>
+              <p>Tourism page for the Wirral Peninsula. Self driven project. Built without frameworks, just pure HTML & CSS</p>
             </div>
-            <div class="project">
-              <h3>100 Days of UI</h3>
-              <p>Currently following </p>
+            <div className="project">
+              <h3>On This Platform</h3>
+              <p>Petitioning platform</p>
             </div>
           </div>
         </section>
@@ -61,6 +61,10 @@ function App() {
           </form>
 
         </section>
+
+        <footer className="footer">
+            <p>Portfolio built by me using React, you can view the source on <a href="https://github.com/daniellenall/daniellenall">GitHub</a></p>
+        </footer>
       </div>
     </div>
   );
