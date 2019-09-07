@@ -7,34 +7,59 @@ function App() {
     <div className="wrapper">
 
       <Navigation>
+        <img src="img/profile.png" class="responsive-img" />
         <h2>Danielle Nall</h2>
         <p>Hello 👋</p>
         <p>You've reached my portfolio, I'm a web developer from the North West of England.</p>
         <p></p>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <ul>
+          <a href="#about"><li>About</li></a>
+          <a href="#projects"><li>Projects</li></a>
+          <a href="#contact"><li>Contact</li></a>
+        </ul>
+
       </Navigation>
       <div className="main">
         <header className="App-header">
-          
+
         </header>
         <section id="about" className="section">
           <h2>About</h2>
-          <p>Consequat et ullamco laboris aliquip exercitation velit irure est qui nostrud labore magna qui sunt.</p>
+          <p>Interested in computers from a young age, I have been inseparable from my laptop</p>
+          <p>I like building the pretty parts of the internet, also known as being a front end developer.</p>
           <p>Ex sit ullamco proident nisi ut nulla. Laboris mollit duis elit laboris magna consectetur fugiat dolor labore eu. Cillum veniam est nulla eiusmod qui nisi commodo aliquip Lorem consectetur. Nulla enim magna labore nulla laboris consectetur do duis mollit. Pariatur elit ea ipsum ad id id in est laboris. Ut non aute minim eu proident culpa laboris labore do voluptate.</p>
         </section>
 
         <section id="projects" className="section">
           <h2>Projects</h2>
-          <p>Consequat et ullamco laboris aliquip exercitation velit irure est qui nostrud labore magna qui sunt.</p>
-          <p>Ex sit ullamco proident nisi ut nulla. Laboris mollit duis elit laboris magna consectetur fugiat dolor labore eu. Cillum veniam est nulla eiusmod qui nisi commodo aliquip Lorem consectetur. Nulla enim magna labore nulla laboris consectetur do duis mollit. Pariatur elit ea ipsum ad id id in est laboris. Ut non aute minim eu proident culpa laboris labore do voluptate.</p>
+          <div class="project grid">
+            <div class="project">
+              <h3>100 Days of UI</h3>
+              <p>Currently following </p>
+            </div>
+            <div class="project">
+              <h3>100 Days of UI</h3>
+              <p>Currently following </p>
+            </div>
+            <div class="project">
+              <h3>100 Days of UI</h3>
+              <p>Currently following </p>
+            </div>
+            <div class="project">
+              <h3>100 Days of UI</h3>
+              <p>Currently following </p>
+            </div>
+          </div>
         </section>
 
         <section id="contact" className="section">
           <h2>Contact</h2>
-          <p>Consequat et ullamco laboris aliquip exercitation velit irure est qui nostrud labore magna qui sunt.</p>
-          <p>Ex sit ullamco proident nisi ut nulla. Laboris mollit duis elit laboris magna consectetur fugiat dolor labore eu. Cillum veniam est nulla eiusmod qui nisi commodo aliquip Lorem consectetur. Nulla enim magna labore nulla laboris consectetur do duis mollit. Pariatur elit ea ipsum ad id id in est laboris. Ut non aute minim eu proident culpa laboris labore do voluptate.</p>
+          <form action="https://formspree.io/hi@daniellenall.com" method="POST">
+            <input type="text" name="name" />
+            <input type="email" name="_replyto" />
+            <input type="submit" value="Send" />
+          </form>
+
         </section>
       </div>
     </div>
