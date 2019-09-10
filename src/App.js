@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navigation from './components/Navigation';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
@@ -70,9 +71,7 @@ function App() {
 
         </section>
 
-        <footer className="footer">
-          <p>Portfolio built by me using React, you can view the source on <a href="https://github.com/daniellenall/daniellenall">GitHub</a></p>
-        </footer>
+        <Footer/>
       </div>
     </div>
   );

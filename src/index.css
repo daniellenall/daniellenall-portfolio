@@ -43,6 +43,7 @@ a:hover {
   text-transform: uppercase;
   border: none;
   border-radius: 5px;
+  transition: 0.7s;
 }
 
 .btn:hover {
