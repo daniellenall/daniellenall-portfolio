@@ -16,7 +16,17 @@
     text-transform: uppercase;
 }
 
-.project > .project-img {
+.project-img {
     width: 100%;
     border-radius: 15px;
 }
+
+
+@media (max-width:768px) {
+    .project {
+      display: block;
+      min-width: 100%;
+      border: none;
+      margin-bottom: 10px;
+    }
+  }

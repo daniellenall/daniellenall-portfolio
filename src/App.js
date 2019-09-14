@@ -10,16 +10,18 @@ function App() {
     <div className="wrapper">
 
       <Navigation>
-        <img src="img/profile.png" class="responsive-img" />
+        <img src="img/profile.png" class="responsive-img profile-img" />
         <h2>Danielle Nall</h2>
-        <p>Hello 👋</p>
-        <p>You've reached my portfolio, I'm a web developer from the North West of England.</p>
-        <p></p>
-        <ul>
+        <div class="nav-text">
+          <p>Hello 👋</p>
+          <p>You've reached my portfolio, I'm a web developer from the North West of England.</p>
+          <ul>
           <a href="#about"><li>About</li></a>
           <a href="#projects"><li>Projects</li></a>
           <a href="#contact"><li>Contact</li></a>
         </ul>
+        </div>
+        
 
       </Navigation>
       <div className="main">
@@ -41,24 +43,28 @@ function App() {
             name="Web Dev Resources"
             img="img/dev-resources.png"
             desc="A curated collection of sites I find useful for web development and design"
+            live="https://dev-resources.netlify.com/"
           />
 
           <Project
             name="Simple Docs"
             img="img/simple-docs.png"
-            desc="Design template for making documentation for personal projects."
+            desc="Design template for documentation built for personal projects."
+            live="https://simple-docs.netlify.com/"
           />
 
           <Project
             name="Daydream Digital"
             img="img/daydream.png"
             desc="Landing page for a digital crafting file brand. Simple static site with links to an Etsy store"
+            live="https://daydreamdigital.netlify.com/"
           />
 
           <Project
             name="Digital Clock"
             img="img/digi-clock.png"
             desc="Simple digital clock page written with vanilla JS."
+            live="https://digital-clock-dn.netlify.com/"
           />
 
           <Project

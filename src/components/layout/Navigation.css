@@ -8,3 +8,21 @@
     padding: 15px 25px;
   
   }
+
+@media (max-width:768px) {
+  .nav {
+    display: block;
+    height: fit-content;  
+    min-width: 100%;
+    overflow: hidden;
+  }
+
+  .profile-img {
+    display: none;
+    
+  }
+
+  .nav-text {
+    display: none;
+  }
+}
