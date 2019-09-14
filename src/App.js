@@ -10,9 +10,9 @@ function App() {
     <div className="wrapper">
 
       <Navigation>
-        <img src="img/profile.png" class="responsive-img profile-img" />
+        <img src="img/profile.png" class="responsive-img profile-img" alt="Profile Picture"/>
         <h2>Danielle Nall</h2>
-        <div class="nav-text">
+        <div className="nav-text">
           <p>Hello 👋</p>
           <p>You've reached my portfolio, I'm a web developer from the North West of England.</p>
           <ul>
@@ -21,8 +21,6 @@ function App() {
           <a href="#contact"><li>Contact</li></a>
         </ul>
         </div>
-        
-
       </Navigation>
       <div className="main">
         <header className="App-header">
@@ -59,7 +57,12 @@ function App() {
             desc="Landing page for a digital crafting file brand. Simple static site with links to an Etsy store"
             live="https://daydreamdigital.netlify.com/"
           />
-
+          <Project
+            name="Previous Portfolio"
+            img="img/old-portfolio.png"
+            desc="My last portfolio before this one was written with plain HTML and Sass"
+            live="https://daniellenall.com"
+          />
           <Project
             name="Digital Clock"
             img="img/digi-clock.png"
@@ -77,8 +80,9 @@ function App() {
         <section id="contact" className="section">
           <h2>Contact</h2>
           <form action="https://formspree.io/hi@daniellenall.com" method="POST">
-            <input type="text" name="name" />
-            <input type="email" name="_replyto" />
+            <input type="text" name="name" placeholder="Name" />
+            <input type="email" name="_replyto" placeholder="Email" />
+            <input type="text" className="long-text-form" name="message" placeholder="Your message" />
             <button type="submit" className="btn" value="Send">Send</button>
           </form>
 
