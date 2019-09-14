@@ -10,11 +10,10 @@ function App() {
     <div className="wrapper">
 
       <Navigation>
-        <img src="img/profile.png" class="responsive-img profile-img" alt="Profile Picture"/>
+        <img src="img/profile.png" className="responsive-img profile-img" alt="Profile"/>
         <h2>Danielle Nall</h2>
         <div className="nav-text">
-          <p>Hello 👋</p>
-          <p>You've reached my portfolio, I'm a web developer from the North West of England.</p>
+          <p>Hello <span role="img" aria-label="Waving hand">👋</span></p>
           <ul>
           <a href="#about"><li>About</li></a>
           <a href="#projects"><li>Projects</li></a>
@@ -32,9 +31,9 @@ function App() {
 
         <section id="about" className="section">
           <h2>About</h2>
-          <p>I'm a web developer based in the North of England. I primarily focus on front end dev, but I'm fairly comfortable with back end technologies too. </p>
-          <p>Languages and frameworks I've worked with before include: HTML, CSS, Sass, JavaScript, React (this site was made with React), Python, node.js, PHP.</p>
-          <p>You can keep up with me on <a href="http://codepen.io/daniellenall">CodePen</a>, <a href="http://github.com/daniellenall">GitHub</a>, or <a href="http://twitter.com/dncodes">Twitter</a></p>
+          <p>I'm a web developer from a small town near Liverpool in the UK. I primarily focus on front end dev, but I'm fairly comfortable with back end technologies too.</p>
+          <p>I have experience using HTML, CSS, Sass, JavaScript, React, Python, and node.js, as well as a few other things to a lesser extent.</p>
+          <p>I'm constantly working on improving my skills and knowledge, and record my progress on <a href="http://codepen.io/daniellenall">CodePen</a> and <a href="http://github.com/daniellenall">GitHub</a>. I also ocassionally post on <a href="http://twitter.com/dncodes">Twitter</a></p>
         </section>
         <ProjectGrid>
           <Project
@@ -82,7 +81,7 @@ function App() {
           <form action="https://formspree.io/hi@daniellenall.com" method="POST">
             <input type="text" name="name" placeholder="Name" />
             <input type="email" name="_replyto" placeholder="Email" />
-            <input type="text" className="long-text-form" name="message" placeholder="Your message" />
+            <textarea name="message" rows="6" defaultValue="Your message"></textarea>
             <button type="submit" className="btn" value="Send">Send</button>
           </form>
 

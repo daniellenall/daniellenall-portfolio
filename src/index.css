@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:100,400,700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +8,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: "Muli",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -89,9 +89,10 @@ section {
   width: 100%;
 }
 
-input[type=text], input[type=email] {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+
+
+input[type=text], input[type=email], textarea {
+  font-family: "Muli";
   background: rgba(255,255,255,0.2);
   border: none;
   padding: 10px;
@@ -99,11 +100,10 @@ input[type=text], input[type=email] {
   display: block;
   width: 100%;
   margin-bottom: 15px;
+  color: rgba(255,255,255,0.25);
 }
 
-.long-text-form {
-  min-height: 100px;
-}
+
 
 ul {
   list-style: none;

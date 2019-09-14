@@ -8,7 +8,9 @@
     padding: 15px 25px;
   
   }
-
+.nav-text > p {
+  text-align: center;
+}
 @media (max-width:768px) {
   .nav {
     display: block;
