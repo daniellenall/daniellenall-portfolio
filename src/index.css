@@ -23,6 +23,7 @@ code {
 
 p {
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 a {
@@ -76,15 +77,16 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.project{
-  flex: 1 0 30%;
-  background: rgba(255,255,255,0.2);
-  border: 2px solid #242424;
+
+
+section {
+  padding: 15px 50px;
+
 }
 
-.section {
-  padding: 15px 25px;
-
+.section-header {
+  display: block;
+  width: 100%;
 }
 
 input[type=text], input[type=email] {

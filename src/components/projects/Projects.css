@@ -1,0 +1,22 @@
+.project{
+    flex: 1 0 30%;
+    background: rgba(0,0,0,0.2);
+    border: 5px solid #242424;
+    border-radius: 15px;
+    object-fit: cover;
+    
+}
+
+.project > .project-content {
+    padding: 15px 25px;
+    
+}
+
+.project > .project-content > .title {
+    text-transform: uppercase;
+}
+
+.project > .project-img {
+    width: 100%;
+    border-radius: 15px;
+}

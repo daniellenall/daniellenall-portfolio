@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import Navigation from './components/layout/Navigation';
+import ProjectGrid from './components/projects/ProjectGrid';
+import Project from './components/projects/Project';
 import Footer from './components/layout/Footer';
 
 function App() {
@@ -30,36 +32,41 @@ function App() {
 
         <section id="about" className="section">
           <h2>About</h2>
-          <p>Interested in computers from a young age, I have been inseparable from my laptop</p>
-          <p>I like building the pretty parts of the internet, also known as being a front end developer.</p>
+          <p>I'm a web developer based in the North of England. I primarily focus on front end dev, but I'm fairly comfortable with back end technologies too. </p>
+          <p>Languages and frameworks I've worked with before include: HTML, CSS, Sass, JavaScript, React (this site was made with React), Python, node.js, PHP.</p>
           <p>You can keep up with me on <a href="http://codepen.io/daniellenall">CodePen</a>, <a href="http://github.com/daniellenall">GitHub</a>, or <a href="http://twitter.com/dncodes">Twitter</a></p>
         </section>
+        <ProjectGrid>
+          <Project
+            name="Web Dev Resources"
+            img="img/dev-resources.png"
+            desc="A curated collection of sites I find useful for web development and design"
+          />
 
-        <section id="projects" className="section">
-          <h2>Projects</h2>
-          <div className="project grid">
-            <div className="project">
-              <h3>Dev Resources</h3>
-              <p>My curation of sites I find useful when developing sites</p>
-            </div>
-            <div className="project">
-              <h3>100 Days of UI</h3>
-              <p>Currently following </p>
-            </div>
-            <div className="project">
-              <h3>Digital Clock</h3>
-              <p>Simple digital clock dashboard written with vanilla JavaScript</p>
-            </div>
-            <div className="project">
-              <h3>Why The Wirral?</h3>
-              <p>Tourism page for the Wirral Peninsula. Self driven project. Built without frameworks, just pure HTML & CSS</p>
-            </div>
-            <div className="project">
-              <h3>On This Platform</h3>
-              <p>Petitioning platform</p>
-            </div>
-          </div>
-        </section>
+          <Project
+            name="Simple Docs"
+            img="img/simple-docs.png"
+            desc="Design template for making documentation for personal projects."
+          />
+
+          <Project
+            name="Daydream Digital"
+            img="img/daydream.png"
+            desc="Landing page for a digital crafting file brand. Simple static site with links to an Etsy store"
+          />
+
+          <Project
+            name="Digital Clock"
+            img="img/digi-clock.png"
+            desc="Simple digital clock page written with vanilla JS."
+          />
+
+          <Project
+            name="On This Platform"
+            img="img/otp.png"
+            desc="Petitioning site based around software ports. Front end built with Bootstrap and custom CSS"
+          />
+        </ProjectGrid>
 
         <section id="contact" className="section">
           <h2>Contact</h2>
@@ -71,7 +78,7 @@ function App() {
 
         </section>
 
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );
