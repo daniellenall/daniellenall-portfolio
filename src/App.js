@@ -60,7 +60,7 @@ function App() {
             name="Previous Portfolio"
             img="img/old-portfolio.png"
             desc="My last portfolio before this one was written with plain HTML and Sass"
-            live="https://daniellenall.com"
+            live="https://5d3dff595d946700088a42d1--daniellenall.netlify.com/"
           />
           <Project
             name="Digital Clock"
