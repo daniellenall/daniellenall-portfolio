@@ -1,6 +1,6 @@
 .nav {
     background: #151515;
-    overflow: none;
+    overflow: hidden;
     height: 100vh;
     min-width: 200px;
     max-width: 20%;
