@@ -10,15 +10,15 @@ function App() {
     <div className="wrapper">
 
       <Navigation>
-        <img src="img/profile.png" className="responsive-img profile-img" alt="Profile"/>
+        <img src="img/profile.png" className="responsive-img profile-img" alt="Profile" />
         <h2>Danielle Nall</h2>
         <div className="nav-text">
           <p>Hello <span role="img" aria-label="Waving hand">👋</span></p>
           <ul>
-          <a href="#about"><li>About</li></a>
-          <a href="#projects"><li>Projects</li></a>
-          <a href="#contact"><li>Contact</li></a>
-        </ul>
+            <a href="#about"><li>About</li></a>
+            <a href="#projects"><li>Projects</li></a>
+            <a href="#contact"><li>Contact</li></a>
+          </ul>
         </div>
       </Navigation>
       <div className="main">
@@ -31,23 +31,41 @@ function App() {
 
         <section id="about" className="section">
           <h2>About</h2>
-          <p>I'm a web developer from a small town near Liverpool in the UK. I primarily focus on front end dev, but I'm fairly comfortable with back end technologies too.</p>
-          <p>I have experience using HTML, CSS, Sass, JavaScript, React, Python, and node.js, as well as a few other things to a lesser extent.</p>
-          <p>I'm constantly working on improving my skills and knowledge, and record my progress on <a href="http://codepen.io/daniellenall">CodePen</a> and <a href="http://github.com/daniellenall">GitHub</a>. I also ocassionally post on <a href="http://twitter.com/dncodes">Twitter</a></p>
+          <p>I'm a web developer from a small town in North Western England.</p>
+
+          <p>I'd describe my self as a front end focused, full stack developer. Meaning I'm most comfortable with front end technologies such as HTML, CSS, JavaScript, and React. However, I can also happily work on back end code, having experience with Python and Django, as well as node.js</p>
+          
+          <p>To keep up to date with my work, you can check out <a href="http://codepen.io/daniellenall">CodePen</a> or <a href="http://github.com/daniellenall">GitHub</a>. I also ocassionally post on <a href="http://twitter.com/dncodes">Twitter</a>. I'm trying to constantly learn and develop my skills further</p>
+
+          <p>I'm also available for work, if you have something you'd like to discuss, <a href="mailto:hi@daniellenall.com">let's chat</a></p>
         </section>
         <ProjectGrid>
+          <Project
+            name="Dashboard"
+            img="img/dashboard.png"
+            desc="Interface mock up of an interactive personal dashboard"
+            live="https://codepen.io/daniellenall/full/JjYmYOw"
+          />
+
+          <Project
+            name="Discord Clone"
+            img="img/discord-clone.png"
+            desc="Replicated Discord app's desktop interface. Write up of my process can be seen inside the demo"
+            live="https://codepen.io/daniellenall/full/RwWBGgQ"
+          />
+
+          <Project
+            name="Random Acts of Kindness"
+            img="img/kindness.png"
+            desc="Generates ideas of kind things people can do for others"
+            live="https://codepen.io/daniellenall/full/QWjBjqm"
+          />
+
           <Project
             name="Web Dev Resources"
             img="img/dev-resources.png"
             desc="A curated collection of sites I find useful for web development and design"
             live="https://dev-resources.netlify.com/"
-          />
-
-          <Project
-            name="Simple Docs"
-            img="img/simple-docs.png"
-            desc="Design template for documentation built for personal projects."
-            live="https://simple-docs.netlify.com/"
           />
 
           <Project
