@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nexport default function Hero({\n  children,\n  home\n}) {\n  return __jsx(\"div\", {\n    class: \"hero\"\n  }, __jsx(\"div\", {\n    class: \"hero-content\"\n  }, children));\n}","map":null,"metadata":{},"sourceType":"module"}

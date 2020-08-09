@@ -25,7 +25,9 @@ export default function Home() {
         <div className="text-left">
           <p>Hi, I’m a Merseyside based software engineer with a focus on front end development. </p>
 
-          <p>I graduated with a HND in Computer Science in 2016, and have commercial experience developing with React.</p>
+          <p>I graduated with a HND in Computer Science in 2016. Since then I have spent some time caring for a family member whilst freelancing occasionally and working on personal projects</p>
+
+          <p>I also have some commercial experience developing with React.</p>
 
           <h3>Tools</h3>
 
@@ -47,7 +49,8 @@ export default function Home() {
           </Link>
         </div>
         <div className="profile-img-container">
-          <img src="profile.jpeg" alt="girl smiling" width="250px" />
+          <img className="profile-img" src="profile.jpeg" alt="girl smiling" width="250px" />
+          <div className="circle"></div>
         </div>
 
       </Section>

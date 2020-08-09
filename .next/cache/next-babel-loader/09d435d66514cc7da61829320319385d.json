@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\n\nfunction Section(props) {\n  return __jsx(\"div\", {\n    \"class\": \"section\"\n  }, __jsx(\"div\", {\n    className: \"section-title\"\n  }, __jsx(\"h2\", null, props.title, \" \\u2192\")), props.children);\n}\n\nexport default Section;","map":null,"metadata":{},"sourceType":"module"}
