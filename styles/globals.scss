@@ -1,0 +1,101 @@
+$dark-gray: #16171B;
+$off-white: #eee;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: $dark-gray;
+  color: $off-white;
+  font-weight: lighter;
+}
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  margin: 0;
+  background: url('https://images.unsplash.com/photo-1583042838635-5cf7ef266a90?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80') fixed;
+  background-size: cover;
+   
+  
+  
+  .hero-content {
+    color: $off-white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    opacity: 1;
+    text-shadow: 0px 2px 5px  rgba(0,0,0,0.8);
+  }
+}
+
+
+
+.section {
+
+  padding: 2.5% 10%;
+  display: flex;
+  flex-wrap: wrap;
+
+  .section-title {
+    color: #0CD6C9;
+    width: 100%;
+    flex-shrink:  0;
+  }
+
+}
+
+img {
+  transform: rotate(7.64deg);
+  box-shadow: 0px 4px 25px 10px rgba(187, 134, 252, 0.5);
+
+}
+
+img::after {
+  content: "";
+
+}
+
+.two-column {
+  column-count: 2;
+}
+
+ul {
+  list-style-type: none;
+
+}
+ul li::before {
+ 
+  content: ">";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #0CD6C9; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
