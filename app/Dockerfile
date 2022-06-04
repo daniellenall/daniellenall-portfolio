@@ -2,14 +2,14 @@ FROM node:14
 
 RUN mkdir -p /app/
 
-WORKDIR /src/
+WORKDIR /app/
 
-COPY package-lock.json /src/
+COPY package-lock.json /app/
 
-COPY package.json /src/
+COPY package.json /app/
 
-COPY . /src/
+COPY . /app/
 
 EXPOSE 3000
 
-RUN npm run start
+RUN npm install
