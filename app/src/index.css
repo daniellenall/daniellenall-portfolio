@@ -124,10 +124,11 @@ ul > a > li {
   .wrapper{
     display: block;
   }
-  
+
   .main {
     display: block;
-    overflow: auto;
+    height: unset;
+    overflow: hidden;
   }
   section {
     padding: 15px 15px;

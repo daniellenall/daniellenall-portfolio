@@ -3,6 +3,7 @@ services:
   frontend:
       container_name: "frontend"
       build: ./app/
+      restart: always
       ports:
         - '3000:3000'
       command: npm run start
