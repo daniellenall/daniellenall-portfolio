@@ -12,7 +12,7 @@ class Footer extends Component {
     render() {
         return (
             <footer className="footer">
-                <p>&copy; Danielle Nall  { this.state.currentYear } <a href="https://github.com/daniellenall/daniellenall">GitHub</a></p>
+                <p>&copy; Danielle Nall  { this.state.currentYear } <a href="https://github.com/daniellenall/daniellenall-portfolio">GitHub</a></p>
             </footer>
         );
     }
