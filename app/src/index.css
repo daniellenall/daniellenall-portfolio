@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:100,400,700&display=swap');
+
+:root {
+  --background: #242424;
+  --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: purple;
+}
+[data-theme='dark'] {
+  --background: black;
+  --text-primary: white;
+  --text-secondary: grey;
+  --accent: darkred;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,8 +26,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
-
+  overflow: overlay;
 }
 
 code {
@@ -61,25 +74,35 @@ a:hover {
   border-radius: 50%;
 }
 
+#root {
+  padding: 40px;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #FF9160,#E63737, #C42776, #810073);
+  background-image: url('https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
 .wrapper {
   display: flex;
+  border-radius: 15px;
   color: white;
+  width: 95%;
+  height: 90%;
+  overflow-y: hidden;
+  opacity: 95%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
 .main {
   flex: 1;
-  background: #242424;
-  height:100vh;
-  overflow-y: scroll;
+  background: var(--background);
+  height:98vh;
   overflow-x: hidden;
 }
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 
 section {
   padding: 15px 50px;
@@ -119,8 +142,39 @@ ul > a > li {
   margin-bottom: 15px;
 }
 
-@media (max-width:768px) {
+.App-header {
+  
+  padding: 15px 25px;
+  height: 30vh;
+}
 
+::-webkit-scrollbar {
+  overflow: overlay;
+  background-color: transparent;
+  width: 20px;
+  padding: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.7);
+  margin: 15px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+@media (max-width:768px) {
+  .App-header {
+    max-height: 5px;
+    overflow: hidden;
+    padding: 0px;
+}
   .wrapper{
     display: block;
   }
